@@ -1,0 +1,33 @@
+{
+  "source_csv": "data/processed/waveforms.csv",
+  "source_sha256": "42f2e646c7d0e66db86300480089a50483bda52ff48436a1464c0004e6668247",
+  "stress_v": 14.0,
+  "window_samples": 190,
+  "seed": 42,
+  "train_capacitors": [
+    "ES14C1",
+    "ES14C3",
+    "ES14C4",
+    "ES14C5",
+    "ES14C6",
+    "ES14C7"
+  ],
+  "test_capacitors": [
+    "ES14C2",
+    "ES14C8"
+  ],
+  "normalisation": {
+    "mean": 6.26855993270874,
+    "std": 5.685612678527832
+  },
+  "counts": {
+    "train": {
+      "healthy": 33,
+      "degraded": 33
+    },
+    "test": {
+      "healthy": 11,
+      "degraded": 11
+    }
+  }
+}
