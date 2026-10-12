@@ -1,6 +1,6 @@
 {
   "source_csv": "data/processed/waveforms.csv",
-  "source_sha256": "42f2e646c7d0e66db86300480089a50483bda52ff48436a1464c0004e6668247",
+  "source_sha256": "904344f48f6c13c4f7d2965eb988ecd916b9c62cfed4a86c0d563790691d30f7",
   "stress_v": 14.0,
   "window_samples": 190,
   "seed": 42,
@@ -17,17 +17,17 @@
     "ES14C8"
   ],
   "normalisation": {
-    "mean": 6.26855993270874,
-    "std": 5.685612678527832
+    "mean": 6.273833274841309,
+    "std": 5.654600143432617
   },
   "counts": {
     "train": {
-      "healthy": 33,
-      "degraded": 33
+      "healthy": 900,
+      "degraded": 900
     },
     "test": {
-      "healthy": 11,
-      "degraded": 11
+      "healthy": 327,
+      "degraded": 273
     }
   }
 }
