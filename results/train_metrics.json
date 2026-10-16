@@ -1,0 +1,81 @@
+{
+  "train": {
+    "n": 1200,
+    "accuracy": 0.73,
+    "baseline": 0.5,
+    "confusion": {
+      "tn": 433,
+      "fp": 167,
+      "fn": 157,
+      "tp": 443
+    },
+    "per_capacitor": {
+      "ES14C1": {
+        "n": 300,
+        "frac_degraded": 1.0,
+        "accuracy": 1.0
+      },
+      "ES14C4": {
+        "n": 300,
+        "frac_degraded": 0.993,
+        "accuracy": 0.4833
+      },
+      "ES14C5": {
+        "n": 300,
+        "frac_degraded": 0.007,
+        "accuracy": 0.9933
+      },
+      "ES14C7": {
+        "n": 300,
+        "frac_degraded": 0.0,
+        "accuracy": 0.4433
+      }
+    }
+  },
+  "validation": {
+    "n": 600,
+    "accuracy": 0.7317,
+    "baseline": 0.5,
+    "confusion": {
+      "tn": 139,
+      "fp": 161,
+      "fn": 0,
+      "tp": 300
+    },
+    "per_capacitor": {
+      "ES14C3": {
+        "n": 300,
+        "frac_degraded": 0.0,
+        "accuracy": 0.4633
+      },
+      "ES14C6": {
+        "n": 300,
+        "frac_degraded": 1.0,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "test": {
+    "n": 600,
+    "accuracy": 0.265,
+    "baseline": 0.545,
+    "confusion": {
+      "tn": 73,
+      "fp": 254,
+      "fn": 187,
+      "tp": 86
+    },
+    "per_capacitor": {
+      "ES14C2": {
+        "n": 300,
+        "frac_degraded": 0.0,
+        "accuracy": 0.1533
+      },
+      "ES14C8": {
+        "n": 300,
+        "frac_degraded": 0.91,
+        "accuracy": 0.3767
+      }
+    }
+  }
+}
